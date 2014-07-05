@@ -1,0 +1,118 @@
+body {
+  background-color: #23719F;
+}
+
+.container{
+  width: 99%;
+}
+header{
+  height: 40px;
+  width: 100%;
+  background-color: #27709b;
+  background: rgba(0,0,0,0.1);
+  margin-bottom: 10px;
+  color: white;
+}
+header input[type="text"]{
+  margin: 2px;
+  margin-left: 10px;
+}
+.task-container{
+  height: auto;
+  width: 100%;
+}
+.list-container{
+  height: auto;
+  display: inline-block;
+  width: 100%;
+  background-color: #27709b;
+  background: rgba(0,0,0,0.1);
+  margin-bottom: 10px;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
+}
+.addlist{
+  display: inherit;
+  width: 100px;
+  cursor: pointer;
+  text-align: center;
+  padding: 8px;  
+  margin: 6px 10px 6px 5px;
+  background-color: #27709b;
+  background: rgba(0,0,0,0.1);
+  color: #fff;  
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;  
+}
+.list{
+  cursor: pointer;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  width: 100px;
+  height: 20px;
+  padding: 8px;  
+  float: left;
+  margin: 6px 10px 6px 5px;
+  background-color: #e3e3e3;
+  border: 1px solid #e5e5e5;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+     -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+          box-shadow: 0 1px 2px rgba(0,0,0,.05);
+}
+.task {
+  float: left;
+  width: 250px;
+  margin-right: 25px;
+  margin-bottom: 10px;
+  background-color: #e3e3e3;
+  border: 1px solid #e5e5e5;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+     -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+          box-shadow: 0 1px 2px rgba(0,0,0,.05);
+}
+.task .item-add{
+  background: rgba(0,0,0,0.1);
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+.task .task-title{
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px 0;
+  color: black;
+}
+.task li{
+  width: 88%;
+  min-height: 20px;
+  margin: 5px;
+  padding: 10px;
+  background-color: white;  
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px; 
+  cursor: pointer; 
+}
+.task input[type="text"]{
+  width: 66%;
+  float: left;
+  margin: 0 10px 5px 5px;
+}
+.task .add-item{
+  margin-bottom: 5px;
+}
+.items, .lists{
+  list-style: none;
+  margin: 0px;
+}
+
