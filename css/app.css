@@ -66,6 +66,7 @@ header input[type="text"]{
           box-shadow: 0 1px 2px rgba(0,0,0,.05);
 }
 .task {
+  position: relative;
   float: left;
   width: 250px;
   margin-right: 25px;
@@ -94,6 +95,7 @@ header input[type="text"]{
 }
 .task li{
   width: 88%;
+  position: relative;
   min-height: 20px;
   margin: 5px;
   padding: 10px;
@@ -115,4 +117,19 @@ header input[type="text"]{
   list-style: none;
   margin: 0px;
 }
+li img.delete{
+  position: absolute;
+  top: 23px;
+  right: 2px;
+}
 
+li img.edit{
+  position: absolute;
+  top: 3px;
+  right: 2px;
+}
+.task-delete{
+  position: absolute;
+  right: 3px;
+  top: 4px;
+}
